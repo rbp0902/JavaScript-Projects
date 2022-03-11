@@ -10,7 +10,10 @@ document.write(Son);                                                //Displaying
 
 window.alert("How are you today?");                                 //Using an alert window to pop up a message
 
-var B = "Veteran's" + "Doctor"
-document.write(B)                                                   //Concatenating a string
+var B = "Veteran's" + "Doctor";
+document.write(B);                                                   //Concatenating a string
 
 document.write(30+1);                                                //This is statement containing an expression (30 + 1).
+
+document.write("\"Be who you are and say what you feel,\"" +        //Concatenating a string
+    "\"because those who mind don't matter and those who matter don't mind\"" + "\"Dr. Seuss\"");
