@@ -10,4 +10,7 @@ document.write(Son);                                                //Displaying
 
 window.alert("How are you today?");                                 //Using an alert window to pop up a message
 
-document.write(3+3); //This is statement containing an expression (3 + 3).
+var B = "Veteran's" + "Doctor"
+document.write(B)                                                   //Concatenating a string
+
+document.write(30+1);                                                //This is statement containing an expression (3 + 3).
