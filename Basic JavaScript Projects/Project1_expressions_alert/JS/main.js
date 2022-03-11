@@ -13,4 +13,4 @@ window.alert("How are you today?");                                 //Using an a
 var B = "Veteran's" + "Doctor"
 document.write(B)                                                   //Concatenating a string
 
-document.write(30+1);                                                //This is statement containing an expression (3 + 3).
+document.write(30+1);                                                //This is statement containing an expression (30 + 1).
