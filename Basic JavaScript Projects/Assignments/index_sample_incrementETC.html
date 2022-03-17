@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="JS/main.js"></script>
+    </head>
+<body>
+
+    <h2>Assignment#22_JavaScript Functions</h2>
+
+    <p>This example call a function which performs increment and decrement operators, and returns the result:</p>
+
+           
+
+            <button onclick = "increment_Operator()" >Increment Operator
+            </button>
+
+            <p id="Increment"> 5 increment = </p>
+
+
+            <button onclick = "decrement_Operator()" >Decrement Operator
+            </button>
+
+            <p id="Decrement"> 5 decrement = </p>
+
+
+            <button onclick = "random_Operator()" >Random Operator
+            </button>
+
+            <p id="Random"> Random 0 to 100 = </p>
+
+
+            <!--script for increment-->
+            <script>
+                    function increment_Operator() {
+                    var x = 5;
+                    x++;
+                    document.getElementById("Increment").innerHTML = " 5 increment = " + x;
+                    }
+
+            </script>
+
+            <!--script for decrement-->
+            <script>
+                    function decrement_Operator() {
+                    var x = 5;
+                    x--;
+                    document.getElementById("Decrement").innerHTML = " 5 decrement = " + x;
+                    }
+            </script>
+
+            <!--script for randon numbers-->
+            <script>
+                    function random_Operator() {
+                    var x = (Math.random() * 100);
+
+                    document.getElementById("Random").innerHTML = " Random 0 to 100 = " + x ;
+                    }
+                    </script>
+
+
+
+
+</body>
+</html>

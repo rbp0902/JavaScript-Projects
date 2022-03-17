@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    
+<body>
+
+    <h2>Assignment#19_JavaScript Functions</h2>
+
+    <p>This example calls a function which performs multiple mathematical operations, </p>
+    and returns</p> the result:</p>
+
+            <button onclick = "more_Math()" >Multiple Functions
+            </button>
+
+            <p id="Multiple">1 plus 2, multiplied by 10, divided in half and then subtracted by 5 equals =   </p>
+
+
+
+            <script>
+                function more_Math() {
+                var simple_math = (1 + 2) * 10 / 2 -5;
+                document.getElementById("Multiple").innerHTML = "1 plus 2, multiplied by 10, divided in half and then subtracted by 5 equals =  " + simple_math + ".";
+}
+            </script>
+
+</body>
+</html>
