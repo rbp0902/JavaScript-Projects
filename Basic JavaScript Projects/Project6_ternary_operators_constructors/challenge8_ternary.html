@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function vote_Function() {
+            var Age, Can_vote;
+            Age = document.getElementById("Age").value;
+            Can_vote = (Age < 18) ? "You are not old enough to vote.":"You can vote!";
+            document.getElementById("Vote").innerHTML = Can_vote;
+        }
+
+
+        </script>
+        
+
+    </head>
+        <p>You must be at least 18 years old to vote</p>
+        <input id="Age" value="18" />
+        <button onclick="vote_Function()">Click here</button>
+        <p id="Vote"></p>
+    <body>
+
+    </body>
+</html>
