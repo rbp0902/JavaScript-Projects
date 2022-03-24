@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function get_Date() {
+                if (new Date().getHours() > 18) {
+                    document.getElementById("Greeting").innerHTML = "How's you're night doing?";
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <p id="Greeting" onclick="get_Date()">Click Here</p>
+    </body>
+</html>
