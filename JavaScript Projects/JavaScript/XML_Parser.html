@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="Nice_Movie"></p>
+        <script>
+            var XML_Parser, XML_Document;
+
+            //creates a text string
+            var Film = "<movie>" + 
+                "<title>Shindler\'s List</title>" +
+                "<director>Steven Spielberg</director>" +
+                "<starring>Liam Neeson</starring>" +
+                "<year>1993</year>" +
+                "</movie>";
+
+                //creates an XML DOM parser
+                XML_Parser = new DOMParser();
+
+                //creates an XML DOM object using the text string
+                XML_Document = XML_Parser.parseFromString(Film,"text/xml");
+
+                document.getElementById("Nice_Movie").innerHTML = 
+                XML_Document.getElementsByTagName("starring") [0].childNodes[0].nodeValue;
+        </script>
+    </body>
+</html>
