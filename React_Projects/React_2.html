@@ -2,7 +2,7 @@
 <html>
     <head>
         <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script> 
-        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossirgin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     </head>
 
     <body>
@@ -23,16 +23,14 @@
 
                         return X (
                             'button',
-                            { oncClick: () => this.set.setState({ liked: true }) },
+                            { onClick: () => this.set.setState({ liked: true }) },
                             'Like'
                         );
                     }
                 }
                 
                 const domContainer = document.querySelector('#like_button_container');
-                ReactDom.render(X(likeButton), domContainer);
-
-        
+                ReactDOM.render(X(likeButton), domContainer);      
                 
         </script>
     </body>
