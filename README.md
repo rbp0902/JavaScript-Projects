@@ -22,10 +22,7 @@ Identify when to use jQuery.
 Identify the main features of jQuery.
 
 
-There are some small projects I made using JavaScript as follows:
-Pizza Menu
-Tic-Tac-Toe Game
-Calculator
+There are some small projects I made using JavaScript as follows: Pizza Menu, Tic-Tac-Toe Game, Calculator, 
 
 Pizza Menu
 This project is a menu used to order pizza with a various selection of toppings. It then takes the input information and calculates a price for the order.
